@@ -2,18 +2,18 @@
 import Logo from "./Logo.astro";
 ---
 
-<header id="header-nav" class="fixed w-screen z-50 top-0 px-8 lg:px-0">
-  <section class="flex justify-between items-center mx-28">
+<header id="header-nav" class="fixed w-full sm:w-screen z-50 top-0 sm:px-8 px-0">
+  <section class="flex justify-between items-center mx-4">
     <div class="flex items-center gap-8">
       <Logo class="w-12 my-2"/>
-      <ul class="flex gap-x-4"> 
+      <ul class="sm:flex gap-x-4 hidden"> 
         <li>INFO</li>
         <li>ARCHIVO</li>
         <li>FINALISTAS</li>
       </ul>
     </div>
     <div>
-      <button class="w-64 h-12 rounded-full border border-white">ENTRA EN LA ISLA ESLAND</button>
+      <button class="w-64 h-12 rounded-full border border-white hidden sm:block">ENTRA EN LA ISLA ESLAND</button>
     </div>
   </section>
 
